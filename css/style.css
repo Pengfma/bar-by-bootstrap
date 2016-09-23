@@ -1,0 +1,207 @@
+body{
+  font-family:'微软雅黑','宋体';
+}
+button.btn.btn-default {
+  background-color: #5e5e5e;
+  color: #fff;
+}
+
+/* 返回顶部图标样式*/
+#toTop-box{
+    width: 50px; height: 50px;
+    position: fixed; bottom: 100px; right: 10px;
+    display: none;
+    z-index: 10;
+}
+#toTop-item{
+    display: inline-block;
+    width: 100%;height: 100%;
+    background: url("../images/move-top.png") 7px 7px no-repeat;
+}
+#toTop-close{
+    display: none;
+    position: absolute; top:-10px; right: -5px;
+}
+
+
+/* 导航开始 */
+div#bs-example-navbar-collapse-1 {
+  padding: 0;
+}
+input.form-control {
+  outline: none;
+  background-color: #FEFEFE;
+}
+nav.navbar.navbar-default {
+  margin: 0;
+}
+ul.nav.navbar-nav.navbar-left li {
+  margin: 0 0.1rem;
+}
+ul.nav.navbar-nav li a {
+  font-size: 17px;
+  color: #5d5d5d;
+}
+ul.nav.navbar-nav li a:hover ,
+ul.nav.navbar-nav li a.active{
+  background-color: #5F9EA0;
+  color: #fff;
+}
+a.navbar-brand {
+  height: auto;
+  line-height: 50px;
+  padding: 0;
+  margin-right: 30px;
+}
+button.btn.btn-default {
+  border: 1px solid #5E5E5E;
+}
+/* 导航结束 */
+
+/*-- banner-bottom--*/
+.banner-bottom {
+  margin-top: 1rem;
+}
+.banner-bottom h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #645d5d;
+  margin-bottom: 0.5e
+}
+.banner-bottom p {
+  color: #747474;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.banner-bottom a.thumbnail {
+  padding: 10px;
+  border: 1px solid rgb(189, 189, 189);
+}
+a.thumbnail:hover {
+  border-color: #5F9EA0;
+}
+
+/*近期推送开始 */
+.features {
+  padding: 3rem 0;
+}
+.featur-grids .thumbnail {
+  padding: 1.5rem;
+  background-color: #F4F2F2;
+  border: none;
+}
+.feature-thmbnl .caption{
+  padding: 0 !important;
+}
+.feature-thmbnl h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+}
+.feature-thmbnl img {
+  border: 10px solid rgb(242, 237, 237);
+  box-shadow: 1px 1px 1px rgb(192, 188, 188);
+  -webkit-box-shadow: 1px 1px 1px rgb(192, 188, 188);
+  -moz-box-shadow: 1px 1px 1px rgb(192, 188, 188);
+  -o-box-shadow: 1px 1px 1px rgb(192, 188, 188);
+  -ms-box-shadow: 1px 1px 1px rgb(192, 188, 188);
+}
+.feature-thmbnl h5{
+  font-size: 1.3rem;
+  color: rgb(95, 158, 160);
+  margin: 1rem 0 0.3rem;
+}
+.feature-thmbnl h5 a{
+  color: rgb(95, 158, 160);
+}
+.feature-thmbnl h5 a:hover{
+  color: rgba(242, 114, 66, 0.96);
+}
+.feature-thmbnl p {
+  font-size: 14px;
+  margin: 0.5rem 0 1rem;
+  color: #000;
+  font-weight: 300;
+}
+.features h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #645d5d;
+  margin-bottom: 1rem;
+}
+/*近期推送结束*/
+/* 网页底部样式开始 */
+.about p {
+  color: #747474;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+span.glyphicon.glyphicon-triangle-right {
+  top: 3px;
+  right: -2px;
+}
+.posts .media {
+  border-bottom: 2px dotted rgb(186, 180, 180);
+}
+.media-body h4 {
+  font-size: 1.1rem;
+}
+.media-body h4 a{
+  color: #313030;
+}
+.media-body h4 a:hover{
+  color: rgb(95, 158, 160);
+}
+.media-body h5 {
+  font-size: 1rem;
+  font-style: italic;
+  color: #313030;
+}
+.footer {
+  background-color: #ededed;
+  padding: 3rem 0;
+}
+.footer h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-style: italic;
+  color: #645d5d;
+  margin-bottom: 0.8e
+}
+.address p {
+  color: #747474;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.address ul {
+  margin: 1.5rem 0 0 0;
+}
+.address ul li {
+  display: block;
+  padding: .5rem 0;
+  font-size: 14px;
+  color: #747474;
+}
+.address ul li a{
+	text-decoration: none;
+	color: #747474;
+}
+.address ul li a:hover{
+	color:#5F9EA0;
+}
+.address ul li span{
+  margin-right: 10px;
+}
+
+.copy-right {
+  background-color: #bdbdbd;
+  padding: 1.5rem 0;
+}
+.copy-right p {
+  color: #645d5d;
+  font-size: 16px;
+  text-align: center;
+}
+/* 网页底部样式结束 */
